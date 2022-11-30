@@ -1,4 +1,5 @@
 // See: https://www.totaltypescript.com/tips/use-in-operator-to-transform-a-union-to-another-union
+
 export type Entity =
   | {
     type: 'user'
@@ -33,16 +34,16 @@ type EntityWithId = {
 
 const commentResult: EntityWithId = {
   type: 'comment',
-  commentId: '123',
+  commentId: '123'
 }
 
 const userResult: EntityWithId = {
   type: 'user',
-  userId: '123',
+  userId: '123'
 }
 
 const postResult: EntityWithId = {
   type: 'post',
-  postId: '123',
+  postId: '123'
 }
 

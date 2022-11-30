@@ -1,4 +1,5 @@
 // See: https://www.totaltypescript.com/tips/use-function-overloads-and-generics-to-type-a-compose-function
+
 export function compose<Input, FirstArg>(
   func: (input: Input) => FirstArg
 ): (input: Input) => FirstArg

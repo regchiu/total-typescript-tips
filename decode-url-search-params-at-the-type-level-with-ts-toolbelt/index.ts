@@ -1,4 +1,5 @@
 // See: https://www.totaltypescript.com/tips/decode-url-search-params-at-the-type-level-with-ts-toolbelt
+
 import { String, Union } from 'ts-toolbelt'
 const query = '/home?a=foo&b=wow'
 
@@ -19,5 +20,5 @@ type QueryParams = {
 
 const obj: Union.Merge<QueryParams> = {
   a: 'foo',
-  b: 'wow',
+  b: 'wow'
 }

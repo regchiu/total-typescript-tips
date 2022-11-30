@@ -1,8 +1,9 @@
 // See: https://www.totaltypescript.com/tips/derive-a-union-type-from-an-object
+
 export const fruitCounts = {
   apple: 1,
   pear: 4,
-  banana: 26,
+  banana: 26
 }
 
 type FruitCounts = typeof fruitCounts
@@ -26,6 +27,6 @@ type NewSingleFruitCount = {
 }[keyof FruitCounts]
 
 const singleFruitCount: NewSingleFruitCount = {
-  banana: 12,
+  banana: 12
 }
 
