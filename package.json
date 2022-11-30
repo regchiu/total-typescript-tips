@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "lint": "eslint --fix ."
+  },
+  "dependencies": {
+    "ts-toolbelt": "^9.6.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.28.0",
+    "typescript": "^4.9.3"
+  }
+}
