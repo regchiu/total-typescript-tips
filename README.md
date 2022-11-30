@@ -16,6 +16,10 @@ See: https://www.totaltypescript.com/tips
 11. [Use 'declare global' to allow types to cross module boundaries](/use-declare-global-to-allow-types-to-cross-module-boundaries/types.ts)
 12. [Use generics to dynamically specify the number, and type, of arguments to functions](/use-generics-to-dynamically-specify-the-number-and-type-of-arguments-to-functions/index.ts)
 13. [Make accessing objects safer by enabling 'noUncheckedIndexedAccess' in tsconfig](/make-accessing-objects-safer-by-enabling-nouncheckedindexedaccess-in-tsconfig/index.ts)
+14. [Map over a union type](/map-over-a-union-type/index.ts)
+15. [Know when to use generics](/know-when-to-use-generics/index.ts)
+16. [Assign local variables to default generic slots to dry up your code and improve performance](/assign-local-variables-to-default-generic-slots-to-dry-up-your-code-and-improve-performance/index.ts)
+17. [Use assertion functions inside classes](/use-assertion-functions-inside-classes/index.ts)
 
 ## React
 
