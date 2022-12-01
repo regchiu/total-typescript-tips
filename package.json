@@ -1,4 +1,6 @@
 {
+  "name": "total-typescript-tips",
+  "private": true,
   "scripts": {
     "lint": "eslint --fix ."
   },
