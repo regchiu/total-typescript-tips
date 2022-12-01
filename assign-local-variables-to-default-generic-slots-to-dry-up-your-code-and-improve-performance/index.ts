@@ -17,6 +17,8 @@ type ValuesOfKeysStartingWith<
 }[_ExtractedKeys]
 
 type NewUnionA = ValuesOfKeysStartingWith<Obj>
+//   ^?
 
 type NewUnionB = ValuesOfKeysStartingWith<Obj, Extract<keyof Obj, `b${string}`>>
+//   ^?
 

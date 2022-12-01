@@ -11,38 +11,39 @@ export type Entity =
     type: 'comment'
   }
 
-// type EntityWithId =
-//   | {
-//     type: 'user'
-//     userId: string
-//   }
-//   | {
-//     type: 'post'
-//     postId: string
-//   }
-//   | {
-//     type: 'comment'
-//     commentId: string
-//   }
+// We don't need to write this now.
+type EntityWithId =
+  | {
+    type: 'user'
+    userId: string
+  }
+  | {
+    type: 'post'
+    postId: string
+  }
+  | {
+    type: 'comment'
+    commentId: string
+  }
 
-type EntityWithId = {
+type NewEntityWithId = {
   [EntityType in Entity['type']]: {
     type: EntityType
   } & Record<`${EntityType}Id`, string>
 }[Entity['type']]
 
 
-const commentResult: EntityWithId = {
+const commentResult: NewEntityWithId = {
   type: 'comment',
   commentId: '123'
 }
 
-const userResult: EntityWithId = {
+const userResult: NewEntityWithId = {
   type: 'user',
   userId: '123'
 }
 
-const postResult: EntityWithId = {
+const postResult: NewEntityWithId = {
   type: 'post',
   postId: '123'
 }

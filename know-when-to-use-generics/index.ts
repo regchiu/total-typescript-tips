@@ -25,10 +25,12 @@ export const getDisplayName = <TItem extends Animal | Human>(item: TItem):
 }
 
 const result = getDisplayName({
+  //  ^?
   name: 'Patch'
 })
 
 const result2 = getDisplayName({
+  //  ^?
   firstName: 'string',
   lastName: 'string'
 })

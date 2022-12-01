@@ -7,20 +7,22 @@ export const fruitCounts = {
 }
 
 type FruitCounts = typeof fruitCounts
+//   ^?
 
-
-// type SingleFruitCount =
-//   | {
-//     apple: number
-//   }
-//   | {
-//     banana: number
-//   }
-//   | {
-//     pear: number
-//   }
+// We don't need to write this now.
+type SingleFruitCount =
+  | {
+    apple: number
+  }
+  | {
+    banana: number
+  }
+  | {
+    pear: number
+  }
 
 type NewSingleFruitCount = {
+  // ^?
   [K in keyof FruitCounts]: {
     [K2 in K]: number
   }
