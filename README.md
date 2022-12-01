@@ -25,8 +25,10 @@ See: https://www.totaltypescript.com/tips
 1. [Ensure that all call sites must be given value](/ensure-that-all-call-sites-must-be-given-value/index.ts)
 ## Access Array and Object
 1. [Access deeper parts of objects and arrays](/access-deeper-parts-of-objects-and-arrays/index.ts)
-# Infer
+## Infer
 1. [Use infer in combination with string literals to manipulate keys of objects](/use-infer-in-combination-with-string-literals-to-manipulate-keys-of-objects/index.ts)
+## Overloads and Generics
+1. [Compare function overloads and generics](/compare-function-overloads-and-generics/index.ts)
 ## React
 1. [Use generics in React to make dynamic and flexible components](/use-generics-in-react-to-make-dynamic-and-flexible-components/index.tsx)
 2. [Create autocomplete helper which allows for arbitrary values](/create-autocomplete-helper-which-allows-for-arbitrary-values/index.tsx)
